@@ -1,0 +1,41 @@
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        font-size: 65px;
+    }
+    
+    .posts {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .post {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: solid black 2px;
+        margin: 20px;
+        width: 350px;
+        border-radius: 2px;
+    }
+    
+    .author {
+        font-family: 'Amatic SC', cursive;
+        font-size: 45px;
+        margin: 10px;
+        text-decoration: underline;
+    }
+    
+    .img {
+        border-radius: 2px;
+        height: 200px;
+        width: 200px;
+        padding-top: 10px;
+        /* padding-bottom: 10px; */
+    }
+    
+    .title {
+        text-align: center;
+        padding: 5px;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
